@@ -1,0 +1,144 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "image": "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw61549dc6/Y0998004/Y0998004_C099600455_E02_GHC.jpg?sw=800",
+            "title": "Dior Sauvage",
+            "price": 2056.83,
+            "stock": 10
+        },
+        {
+            "id": 2,
+            "image": "https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_autoplus,fl_lossy,dpr_1.1/w_1240/n-5-eau-de-parfum-spray-3-4fl-oz--packshot-default-125530-9539148742686.jpg",
+            "title": "Chanel No. 5",
+            "price": 2311.83,
+            "stock": 14
+        },
+        {
+            "id": 3,
+            "image": "https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwcc47a2f0/original/90_R740011-R200MLS_RNUL_20_Eros~EDT~200~ml-Accessories-Versace-online-store_0_1.jpg?sw=850&q=85&strip=true",
+            "title": "Versace Eros",
+            "price": 1878.33
+            ,"stock": 13
+        },
+        {
+            "id": 4,
+            "image": "https://www.sephora.com.mx/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwe5fcf79d/images/hi-res/boletos/Karla%20Nieto/TOM%20FORD/888066000079_1.jpg",
+            "title": "Tom Ford Black Orchid",
+            "price": 2566.83,
+            "stock": 14
+        },
+        {
+            "id": 5,
+            "image": "https://m.media-amazon.com/images/I/7134Ds7j4dL.jpg",
+            "title": "Gucci Bloom",
+            "price": 1699.83,
+            "stock": 14
+        },
+        {
+            "id": 6,
+            "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCL/8472577_1/w=1500,h=1500,fit=pad",
+            "title": "YSL Libre",
+            "price": 2218.33,
+            "stock": 14
+        },
+        {
+            "id": 7,
+            "image": "https://abscents.com.mx/cdn/shop/files/208479_img-6623-giorgio-armani-acqua-di-gio-parfum_720-fotor-20240331131021.jpg?crop=center&height=1024&v=1711912229&width=1024",
+            "title": "Acqua di Gio",
+            "price": 1977.83,
+            "stock": 14
+        },
+        {
+            "id": 8,
+            "image": "https://resources.claroshop.com/imagenes-sanborns-ii/1200/3349668579839_2.jpg",
+            "title": "Paco Rabanne 1 Million",
+            "price": 1801.83
+            ,"stock": 10
+        },
+        {
+            "id": 9,
+            "image": "https://www.elpalaciodehierro.com/on/demandware.static/-/Sites-palacio-master-catalog/default/dwab71724c/images/30439629/large/30439629_x1.jpg",
+            "title": "Jo Malone Peony & Blush",
+            "price": 2396.83
+            ,"stock": 19
+        },
+        {
+            "id": 10,
+            "image": "https://ss701.liverpool.com.mx/xl/1158255878.jpg",
+            "title": "Burberry Her",
+            "price": 1682.83
+            ,"stock": 10
+        },
+        {
+            "id": 11,
+            "image": "https://images-cdn.ubuy.com.mx/65b0854764662f69b3424f89-creed-aventus-100-ml-3-3-oz-batch.jpg",
+            "title": "Creed Aventus",
+            "price": 5533.83
+            ,"stock": 10
+        },
+        {
+            "id": 12,
+            "image": "https://m.media-amazon.com/images/I/61yw63Fg2WL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Marc Jacobs Daisy",
+            "price": 1529.83
+            ,"stock": 10
+        },
+        {
+            "id": 13,
+            "image": "https://m.media-amazon.com/images/I/71LN7ymoGwL._AC_UF1000,1000_QL80_.jpg",
+            "title": "Givenchy L'Interdit",
+            "price": 2141.83
+            ,"stock": 10
+        },
+        {
+            "id": 14,
+            "image": "https://m.media-amazon.com/images/I/51AVlojszbL._AC_UF894,1000_QL80_.jpg",
+            "title": "Jean Paul Gaultier Le Male",
+            "price": 1963.33
+            ,"stock": 10
+        },
+        {
+            "id": 15,
+            "image": "https://assets.hermes.com/is/image/hermesproduct/terre-d-hermes-parfum--107757V0-worn-3-0-0-800-800_g.jpg",
+            "title": "Hermès Terre d'Hermès",
+            "price": 2549.83
+            ,"stock": 10
+        },
+        {
+            "id": 16,
+            "image": "https://perfumegallery.com.mx/cdn/shop/files/8057971183500-3.jpg?v=1727464616",
+            "title": "Dolce & Gabbana Light Blue",
+            "price": 1885.83
+            ,"stock": 10
+        },
+        {
+            "id": 17,
+            "image": "https://m.media-amazon.com/images/I/51snQRzzKLL.jpg",
+            "title": "Bvlgari Man in Black",
+            "price": 2218.33
+            ,"stock": 10
+        },
+        {
+            "id": 18,
+            "image": "https://perfumegallery.com.mx/cdn/shop/files/3605533286555-3.jpg?v=1713828542",
+            "title": "Lancôme La Vie Est Belle",
+            "price": 2056.83
+            ,"stock": 10
+        },
+        {
+            "id": 19,
+            "image": "https://perfumegallery.com.mx/cdn/shop/files/3614273604932-3.jpg?v=1720813847",
+            "title": "Armani Code",
+            "price": 1878.33
+            ,"stock": 10
+        },
+        {
+            "id": 20,
+            "image": "https://m.media-amazon.com/images/I/51FiwipIE7L.jpg",
+            "title": "You And I  One Direction",
+            "price": 2311.83,
+            "stock": 10
+        }
+    ]
+}
