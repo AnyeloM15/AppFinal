@@ -3,6 +3,7 @@ import React, { useContext, useState } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRoute } from '@react-navigation/native';
 import Header from '../components/Header';
+import { CartContext } from '../context/CartContext';
 
 const sizeOptions = ['50ml', '100ml', '200ml'];
 
@@ -10,6 +11,24 @@ const ProductDetails = () => {
     const route = useRoute();
     const item = route.params.item; 
     const [selectedSize, setSelectedSize] = useState(null);
+    const { addToCart } = useContext(CartContext); // Usar el contexto
+
+    const handleAddToCart = () => {
+        if (!selectedSize) {
+            alert('Selecciona un tamaño antes de agregar al carrito');
+            return;
+        }
+
+        const itemToCart = {
+            ...item,
+            selectedSize, // Agregamos la selección de tamaño
+            quantity: 1
+        };
+
+        addToCart(itemToCart);
+        alert('Producto agregado al carrito');
+    };
+
 
     return (
         <SafeAreaView className="flex-1 bg-white">
@@ -53,12 +72,10 @@ const ProductDetails = () => {
             ))}
             </View>
         </View>
-        {/* Botón de compra */}
-        <TouchableOpacity onPress={()=>{
-            
-        }} className="bg-red-500 py-4 mt-10 mx-4 rounded-lg items-center">
-            <Text className="text-white text-lg font-semibold">Agregar al carrito</Text>
-        </TouchableOpacity>
+        {/* Botón de compra con la función de agregar al carrito */}
+        <TouchableOpacity onPress={handleAddToCart} className="bg-red-500 py-4 mt-10 mx-4 rounded-lg items-center">
+                <Text className="text-white text-lg font-semibold">Agregar al carrito</Text>
+            </TouchableOpacity>
         </SafeAreaView>
     );
 };
