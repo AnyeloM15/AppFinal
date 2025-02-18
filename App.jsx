@@ -13,10 +13,12 @@ const Stack = createStackNavigator();
 
 const MyHomeStack = () => {
   return (
-    <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="HOME" component={HomeScreen} />
-      <Stack.Screen name="PRODUCT_DETAILS" component={ProductDetails} />
-    </Stack.Navigator>
+    
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="HOME" component={HomeScreen} />
+        <Stack.Screen name="PRODUCT_DETAILS" component={ProductDetails} />
+      </Stack.Navigator>
+    
   );
 };
 
@@ -28,6 +30,7 @@ const App = () => {
           headerShown: false,
           tabBarShowLabel: false,
         }}
+        initialRouteName='CARD'
       >
         <Tab.Screen
           name="HOME_STACK"
