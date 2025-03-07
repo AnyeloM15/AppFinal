@@ -1,7 +1,9 @@
 import React from 'react';
 import { SafeAreaView, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
-const AccountScreen = () => {
+ 
+
+const AccountScreen = ({navigation}) => {
   return (
     <SafeAreaView className="flex-1 bg-gray-100 justify-center items-center">
       <View className="bg-white p-8 rounded-lg shadow-md w-4/5">
@@ -21,7 +23,7 @@ const AccountScreen = () => {
 
         <TouchableOpacity
           className="w-full bg-blue-500 py-3 rounded-md items-center"
-          onPress={() => console.log('Login pressed')}
+          onPress={() => navigation.navigate('HOME_STACK')}
         >
           <Text className="text-white font-semibold">Login</Text>
         </TouchableOpacity>

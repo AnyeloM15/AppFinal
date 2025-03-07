@@ -30,7 +30,9 @@ const App = () => {
             headerShown: false,
             tabBarShowLabel: false,
           }}
-          initialRouteName="HOME_STACK"
+          // initialRouteName="HOME_STACK"
+          initialRouteName="ACCOUNT"
+          
         >
           <Tab.Screen
             name="HOME_STACK"
